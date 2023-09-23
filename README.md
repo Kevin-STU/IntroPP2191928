@@ -6,11 +6,11 @@ Este repositorio contiene los trabajos y proyectos realizados durante el curso d
 
 ## Contenido
 
-- `OpenMP/`: Carpeta que contiene el proyecto relacionado con la sucesión de Fibonacci y la programación en paralelo utilizando OpenMP.
+- `OpenMP`: Carpeta que contiene el proyecto relacionado con la sucesión de Fibonacci y la programación en paralelo utilizando OpenMP.
 
 ## Proyecto OpenMP: Sucesión de Fibonacci
 
-En la carpeta `OpenMP/` se encuentra el proyecto relacionado con la sucesión de Fibonacci y la programación en paralelo utilizando OpenMP.
+En la carpeta `OpenMP` se encuentra el proyecto relacionado con la sucesión de Fibonacci y la programación en paralelo utilizando OpenMP.
 
 ### Descripción del Problema
 
