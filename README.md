@@ -2,7 +2,7 @@
 
 ## Intro. Computación Paralela
 
-Este repositorio contiene los trabajos y proyectos realizados durante el curso de "Introducción a la Programación en Paralelo". Cada carpeta dentro de este repositorio corresponde a un proyecto o tarea específica del curso.
+Este repositorio contiene los trabajos y proyectos realizados durante el curso de "Introducción a la Programación en Paralelo". Cada carpeta dentro de este repositorio corresponde a un proyecto del curso.
 
 ## Contenido
 
@@ -10,7 +10,7 @@ Este repositorio contiene los trabajos y proyectos realizados durante el curso d
 
 ## Proyecto OpenMP: Sucesión de Fibonacci
 
-En la carpeta `OpenMP/` encontrarás el proyecto relacionado con la sucesión de Fibonacci y la programación en paralelo utilizando OpenMP.
+En la carpeta `OpenMP/` se encuentra el proyecto relacionado con la sucesión de Fibonacci y la programación en paralelo utilizando OpenMP.
 
 ### Descripción del Problema
 
@@ -24,7 +24,7 @@ En matemáticas, la sucesión de Fibonacci es una secuencia infinita de números
 
 ## Notas
 
-Este repositorio se actualizará con otros trabajos y proyectos que se realicen en el curso.
+Este repositorio se actualizará con otros trabajos que se realicen en el curso.
 
 
 - Kevin Prada
