@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "omp.h"
 
-int calculateEvenSum(int n)
+unsigned long long calculateEvenSum(int n)
 {
-    int sum=0, fibo[2*n + 1];
+    unsigned long long sum=0, fibo[2*n + 1];
     fibo[0]=0, fibo[1]=1;
 
     for(int i=2; i <= 2*n; i++)
@@ -21,16 +21,16 @@ int calculateEvenSum(int n)
 
 int main()
 {
-    int n = 150000;
+    int n = 5;
 
     double start = omp_get_wtime();
-    int sum = calculateEvenSum(n);
+    unsigned long long sum = calculateEvenSum(n);
     double final = omp_get_wtime();
 
 
     double time = (final-start)*1000;
 
-    printf("\n n = %d \n Suma = %d \n Tiempo = %f [ms]\n\n", n, sum, time);
+    printf("\n n = %d \n Suma = %llu \n Tiempo = %f [ms]\n\n", n, sum, time);
 
     return 0;
 }
