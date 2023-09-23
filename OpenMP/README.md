@@ -1,5 +1,5 @@
 # Primer Taller - OpenMP (Fibonacci)
-
+ 
 En esta carpeta se encuentran los archivos relacionados con la solución secuencial y paralela del problema de suma de números de Fibonacci utilizando OpenMP.
 
 ## Contenido de la Carpeta
