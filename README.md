@@ -31,7 +31,3 @@ Este repositorio se actualizará con otros trabajos y proyectos que se realicen 
 - kevinprada0101@gmail.com
 - Kevin-STU
 
-Esperamos que encuentres este repositorio útil y que te ayude a aprender más sobre la programación en paralelo y otros conceptos relacionados con la informática.
-
-¡Gracias por visitar este repositorio!
-
