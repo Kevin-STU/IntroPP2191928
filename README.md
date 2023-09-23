@@ -1,5 +1,6 @@
 # IntroPP2191928
-##Proyectos - Intro. Computación Paralela
+
+## Proyectos - Intro. Computación Paralela
 
 Este repositorio contiene los trabajos y proyectos realizados durante el curso de "Introducción a la Programación en Paralelo". Cada carpeta dentro de este repositorio corresponde a un proyecto o tarea específica del curso.
 
@@ -21,19 +22,14 @@ En matemáticas, la sucesión de Fibonacci es una secuencia infinita de números
 - `OpenMP/sumfibonacci_omp.c`: Código fuente de la solución paralela en C utilizando OpenMP.
 - `OpenMP/README.md`: Instrucciones de compilación y ejecución, así como comparaciones de tiempos de ejecución al aumentar la escala del problema.
 
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Si estás inscrito en el curso y deseas colaborar en alguno de los proyectos o mejorar el contenido, no dudes en crear un "pull request" o abrir un "issue" en este repositorio.
-
 ## Notas
 
-Este repositorio se actualizará con otros trabajos y proyectos que se realicen en el curso "Introducción a la Programación en Paralelo". ¡Mantente atento a las actualizaciones!
+Este repositorio se actualizará con otros trabajos y proyectos que se realicen en el curso.
 
-## Autor
 
-- Tu Nombre
-- Tu dirección de correo electrónico
-- Tu cuenta de GitHub
+- Kevin Prada
+- kevinprada0101@gmail.com
+- Kevin-STU
 
 Esperamos que encuentres este repositorio útil y que te ayude a aprender más sobre la programación en paralelo y otros conceptos relacionados con la informática.
 
