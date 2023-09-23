@@ -71,7 +71,7 @@ A continuación se presentan los tiempos de ejecución obtenidos:
 
 ### Conclusiones
 
-Los resultados muestran que el código paralelizado es más rápido que el código secuencial cuando se trabaja con un valor grande de N (150,000 en este caso). Esto se debe a la capacidad del código paralelo para aprovechar múltiples núcleos de CPU y distribuir el trabajo de manera eficiente en problemas más grandes.
+Los resultados muestran que el código paralelizado es más rápido que el código secuencial cuando se trabaja con un valor grande de N (150000 en este caso). Esto se debe a la capacidad del código paralelo para aprovechar múltiples núcleos de CPU y distribuir el trabajo de manera eficiente en problemas más grandes.
 
 Sin embargo, es importante destacar que el código paralelizado puede mostrar un rendimiento inferior al código secuencial cuando se trabaja con valores muy pequeños de N (5 en este caso). Esto se debe a la sobrecarga introducida por la paralelización, que puede ser significativa en problemas pequeños. La administración de hilos y la sincronización entre ellos pueden requerir más tiempo que la propia ejecución secuencial del problema.
 
