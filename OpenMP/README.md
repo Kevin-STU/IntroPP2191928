@@ -75,18 +75,6 @@ Los resultados muestran que el código paralelizado es más rápido que el códi
 
 Sin embargo, es importante destacar que el código paralelizado puede mostrar un rendimiento inferior al código secuencial cuando se trabaja con valores muy pequeños de N (5 en este caso). Esto se debe a la sobrecarga introducida por la paralelización, que puede ser significativa en problemas pequeños. La administración de hilos y la sincronización entre ellos pueden requerir más tiempo que la propia ejecución secuencial del problema.
 
-### Posibles Razones
-
-Las posibles razones de por qué el código paralelizado funciona mejor con N grande pero más lento con N pequeños incluyen:
-
-1. Sobrecarga de paralelización: La creación y administración de hilos paralelos introduce cierta sobrecarga en el rendimiento. Esta sobrecarga puede ser más evidente en problemas pequeños donde la ejecución secuencial es rápida.
-
-2. Balance de carga: Para valores pequeños de N, es posible que algunos hilos paralelos no tengan suficiente trabajo para justificar la paralelización completa. Esto puede resultar en una distribución desigual de la carga de trabajo entre los hilos.
-
-3. Sincronización: La necesidad de sincronizar hilos puede aumentar el tiempo de ejecución en problemas pequeños. La sincronización se vuelve más costosa en términos de tiempo a medida que se incrementa el número de hilos.
-
-En resumen, la elección entre la implementación secuencial y paralela debe basarse en el tamaño del problema a resolver. Para problemas grandes, la implementación paralela puede ofrecer un rendimiento significativamente mejor, mientras que para problemas pequeños, la implementación secuencial puede ser más eficiente debido a la falta de sobrecarga de paralelización.
-
 
 
 
