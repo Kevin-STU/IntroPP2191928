@@ -29,10 +29,11 @@ Para obtener los archivos de este repositorio en el servidor GUANE o localmente,
 
 Para compilar el código secuencial, se utiliza el siguiente comando:
 
-```bash gcc -Wall -std=c99 sumfibonacci.c -o sumfibo```
+```bash gcc -Wall -fopenmp -std=c99 sumfibonacci.c -o sumfibo```
 
 Donde:
 - `-Wall`: Habilita todas las advertencias para una compilación más segura.
+- `-fopenmp`: Habilita la biblioteca OpenMP para la programación paralela.
 - `-std=c99`: Indica el estándar C99.
 - `sumfibonacci.c`: El código fuente a compilar.
 - `-o sumfibo`: El nombre del archivo ejecutable resultante.
@@ -43,8 +44,7 @@ Para ejecutar el programa secuencial, se usa el siguiente comando:
 
 Para compilar el código paralelo, se utiliza el siguiente comando:
 
-Donde:
-- `-fopenmp`: Habilita la biblioteca OpenMP para la programación paralela.
+```bash gcc -Wall -fopenmp -std=c99 sumfibonacci_omp.c -o sumfibo_omp```
 
 Para ejecutar el programa paralelo, se usa el siguiente comando:
 ```bash ./sumfibo_omp```
