@@ -77,11 +77,11 @@ Sin embargo, es importante destacar que el código paralelizado puede mostrar un
 
 ### Análisis de Complejidad
 
-- Generación de la secuencia de Fibonacci: El primer bucle for se encarga de calcular los números de Fibonacci hasta 2n. La secuencia de Fibonacci se calcula de manera iterativa, y en cada iteración, se realiza una suma simple de los dos valores anteriores. Entonces, el tiempo de ejecución de este bucle es lineal, es decir, ```O(2n)```.
+Generación de la secuencia de Fibonacci: El primer bucle for calcula los números de Fibonacci hasta 2n, lo que implica un tiempo de ejecución de ```O(2n)```.
 
-- Cálculo de la suma de números pares de Fibonacci: El segundo bucle for recorre la secuencia de Fibonacci generada en el paso anterior y suma los números en índices pares. Dado que estamos recorriendo todos los números generados en el paso anterior, la complejidad de este bucle también es lineal, es decir, ```O(2n)```.
+Cálculo de la suma de números pares de Fibonacci: El segundo bucle for recorre la mitad de los elementos generados en el primer bucle, es decir, n elementos. Por lo tanto, la complejidad de este bucle es ```O(n)```.
 
-La complejidad total del código es la suma de las complejidades de estas dos partes, lo que da como resultado una complejidad total de ```O(2n) + O(2n) = O(4n)```.
+La complejidad total del código es la suma de las complejidades de estas dos partes, lo que da como resultado ```O(2n) + O(n) = O(3n)```. 
 Omitiendo las constantes multiplicativas, la complejidad final se simplifica a ```O(n)```. O sea, que la complejidad del código es lineal en función del valor de n. A medida que n crece, el tiempo de ejecución aumentará de manera proporcional.
 
 
