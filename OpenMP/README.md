@@ -51,8 +51,6 @@ Para ejecutar el programa paralelo, se usa el siguiente comando:
 
 ## Comparación de Tiempos de Ejecución
 
-## Comparación de Tiempos de Ejecución
-
 Se realizaron comparaciones de tiempos de ejecución con diferentes valores de N para evaluar el rendimiento de las implementaciones secuencial y paralela.
 
 ### Resultados
@@ -61,7 +59,7 @@ A continuación se presentan los tiempos de ejecución obtenidos:
 
 - Con N = 150000:
   - Código secuencial: 3.535937 [ms]
-  - ![Ejemplo](Imagenes/150000 secuencial.png)
+  - ![Ejemplo](Imagenes/150000%20secuencial.png)
   - Código paralelizado: 3.192182 [ms]
 
 
