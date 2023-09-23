@@ -77,7 +77,7 @@ Sin embargo, es importante destacar que el código paralelizado puede mostrar un
 
 ### Análisis de Complejidad
 
-Para tener una mayor fácilidad a la hora del análisis de complejidad vamos a dividir para entender comprender mejor la complejidad,
+Para tener una mayor fácilidad a la hora del análisis de complejidad vamos a dividir las partes del código para entender comprender mejor la complejidad,
 
 - Generación de la secuencia de Fibonacci: El primer bucle for calcula los números de Fibonacci hasta 2n, lo que implica un tiempo de ejecución de ```O(2n)```.
 
