@@ -11,7 +11,7 @@ En esta carpeta se encuentran los archivos relacionados con la solución secuenc
 
 ## Descripción del Problema
 
-En matemáticas, la sucesión de Fibonacci es una secuencia infinita de números naturales. Cada término de la secuencia es la suma de los dos términos anteriores. Para este ejemplo, hemos implementado un programa en C para encontrar la suma de números de Fibonacci en índices pares hasta un valor N. Esto se hace tanto de manera secuencial como paralela utilizando OpenMP.
+En matemáticas, la sucesión de Fibonacci es una secuencia infinita de números naturales. Cada término de la secuencia es la suma de los dos términos anteriores. Para este ejemplo, se ha implementado un programa en C para encontrar la suma de números de Fibonacci en índices pares hasta un valor N. Esto se hace tanto de manera secuencial como paralela utilizando OpenMP.
 
 ## Instrucciones de Compilación y Ejecución
 
