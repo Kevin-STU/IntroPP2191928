@@ -75,7 +75,13 @@ Los resultados muestran que el código paralelizado es más rápido que el códi
 
 Sin embargo, es importante destacar que el código paralelizado puede mostrar un rendimiento inferior al código secuencial cuando se trabaja con valores muy pequeños de N (5 en este caso). Esto se debe a la sobrecarga introducida por la paralelización, que puede ser significativa en problemas pequeños. La administración de hilos y la sincronización entre ellos pueden requerir más tiempo que la propia ejecución secuencial del problema.
 
+### Análisis de Complejidad
 
+- Generación de la secuencia de Fibonacci: El primer bucle for se encarga de calcular los números de Fibonacci hasta 2n. La secuencia de Fibonacci se calcula de manera iterativa, y en cada iteración, se realiza una suma simple de los dos valores anteriores. Entonces, el tiempo de ejecución de este bucle es lineal, es decir, ```O(2n)```.
 
+- Cálculo de la suma de números pares de Fibonacci: El segundo bucle for recorre la secuencia de Fibonacci generada en el paso anterior y suma los números en índices pares. Dado que estamos recorriendo todos los números generados en el paso anterior, la complejidad de este bucle también es lineal, es decir, ```O(2n)```.
+
+La complejidad total del código es la suma de las complejidades de estas dos partes, lo que da como resultado una complejidad total de ```O(2n) + O(2n) = O(4n)```.
+Omitiendo las constantes multiplicativas, la complejidad final se simplifica a ```O(n)```. O sea, que la complejidad del código es lineal en función del valor de n. A medida que n crece, el tiempo de ejecución aumentará de manera proporcional.
 
 
