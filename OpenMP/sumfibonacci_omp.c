@@ -10,7 +10,12 @@ unsigned long long calculateEvenSum(int n)
     {
         fibo[i] = fibo[i-1] + fibo[i-2];
     }
-
+    
+    // Los cálculos a continuación se realizarán 
+    // en paralelo por múltiples hilos.
+    
+    // Además, se añade la directiva "reduction(+:sum)" para asegurar que las
+    // sumas parciales realizadas por cada hilo se agreguen correctamente a "sum".
     #pragma omp parallel for reduction(+:sum)
     for(int i=0; i <= 2*n; i+=2)
     {
