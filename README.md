@@ -1,6 +1,6 @@
 # IntroPP2191928
 
-## Proyectos - Intro. Computación Paralela
+## Intro. Computación Paralela
 
 Este repositorio contiene los trabajos y proyectos realizados durante el curso de "Introducción a la Programación en Paralelo". Cada carpeta dentro de este repositorio corresponde a un proyecto o tarea específica del curso.
 
