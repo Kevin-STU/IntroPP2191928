@@ -61,13 +61,13 @@ A continuación se presentan los tiempos de ejecución obtenidos:
   - Código secuencial: 3.535937 [ms]
   - ![Ejemplo](Imagenes/150000%20secuencial.png)
   - Código paralelizado: 3.192182 [ms]
-  - ![Ejemplo](Imagenes/150000%20paralelizada.png)
+  - ![Ejemplo](Imagenes/150000%20paralelizado.png)
 
 - Con N = 5:
   - Código secuencial: 0.002108 [ms]
   - ![Ejemplo](Imagenes/5%20secuencial.png)
   - Código paralelizado: 0.431494 [ms]
-  - ![Ejemplo](Imagenes/5%20paralelizada.png)
+  - ![Ejemplo](Imagenes/5%20paralelizado.png)
 
 ### Conclusiones
 
