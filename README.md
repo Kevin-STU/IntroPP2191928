@@ -8,7 +8,7 @@ Este repositorio contiene los trabajos y proyectos realizados durante el curso d
 
 - `OpenMP`: sucesión de Fibonacci y la programación en paralelo utilizando OpenMP.
 - `MPI`: simulación de árbol de búsqueda Monte Carlo para estimar el valor de problemas matemáticos complejos, como la fijación de precios de opciones.
-- `Monte Carlo  Tree Search (TrabajoFinal)`: solución de la Ecuación del Calor en un dominio bidimensional mediante el modelo de programación paralela MPI 
+- `Monte Carlo Tree Search (TrabajoFinal)`: solución de la Ecuación del Calor en un dominio bidimensional mediante el modelo de programación paralela MPI 
 
 ## Proyecto OpenMP: Sucesión de Fibonacci
 
